@@ -1,0 +1,52 @@
+h1, h2, h3, h4, h5, h6{
+  color: orange;
+  font-family: sans-serif;
+}
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+
+}
+
+table th{
+  border: 1px solid black;
+}
+
+table td{
+  border: 1px solid black;
+}
+
+table tr th{
+  color: magenta;
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: square;
+}
+
+a:hover{
+  color: #FF10F0;
+  text-decoration: none;
+}
+
+blockquote{
+  background-color: darkgray;
+  color: pink;
+}
+
+ul > li:first-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+}
+
+ul > li:last-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+}
+
+#checkbox-grid{
+  list-style: none;
+}
